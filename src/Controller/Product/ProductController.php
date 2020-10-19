@@ -22,10 +22,11 @@ class ProductController extends AbstractController
      * @param string $id
      * @param AdapterInterface $cache
      * @param DataDriverService $dataDriver
-     * @param ProductAtemptLoggerInterface $fileLoggerService
+     * @param ProductAtemptLoggerInterface $AtemptLoggerService
      * @return JsonResponse
      *
      * @Route("/product/{id}", name="product_product")
+     * @throws \Psr\Cache\InvalidArgumentException
      */
     public function index(Request $request, string $id, AdapterInterface $cache, DataDriverService $dataDriver, ProductAtemptLoggerInterface $AtemptLoggerService)
     {
@@ -39,7 +40,6 @@ class ProductController extends AbstractController
             $product = $dataDriver->getProductById($id);
             $cacheItem->set($product);
             $cache->save($cacheItem);
-
         }
         $product = $cacheItem->get();
 
