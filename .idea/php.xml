@@ -1,33 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ChangeListManager">
-    <list default="true" id="063636df-81fe-417c-8e4a-b87d8c3805fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Service/DataDriver/DataDriverService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/DataDriver/DriverFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/DataDriver/ElasticSearchDriver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/DataDriver/MySqlDriver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/ProductAtemptLogger/ProductAtemptLoggerFileService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Service/ProductAtemptLogger/ProductAtemptLoggerInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/symfony-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony-project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-    </list>
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
-    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpIncludePathManager">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/mime" />
@@ -133,71 +106,5 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
     </include_path>
   </component>
-  <component name="ProjectId" id="1iwxiH5LtKdiAhZmI2XQm6h7xII" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Service/ProductAtemptLogger" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\symfony-project\src\Service\ProductAtemptLogger" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\symfony-project\templates\product" />
-    </key>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="063636df-81fe-417c-8e4a-b87d8c3805fa" name="Default Changelist" comment="" />
-      <created>1602832580207</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1602832580207</updated>
-      <workItem from="1602832581470" duration="4236000" />
-      <workItem from="1603045587722" duration="124000" />
-      <workItem from="1603045732863" duration="88000" />
-      <workItem from="1603045899541" duration="14757000" />
-    </task>
-    <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="765" y="206" key="#com.intellij.ide.util.MemberChooser" timestamp="1603054744891">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="765" y="206" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1603054744891" />
-    <state x="746" y="11" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603057032318">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="746" y="11" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1603057032318" />
-    <state x="715" y="247" key="NewPhpClassDialog" timestamp="1603054514671">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="715" y="247" key="NewPhpClassDialog/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1603054514671" />
-    <state x="794" y="448" key="NewPhpFileDialog" timestamp="1603048756498">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="794" y="448" key="NewPhpFileDialog/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1603048756498" />
-    <state x="777" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603047423164">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="777" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1603047423164" />
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1603047389758">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1603047389758" />
-  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
 </project>
